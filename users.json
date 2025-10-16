@@ -1,0 +1,34 @@
+{
+    "alice": {
+        "password": "scrypt:32768:8:1$cQYaWd4pYL9hqDYe$34d8dfbfd89c35f970670ffe68482b2a16dac0dcf03905d5efbf96fbe8362ebb0039626739d79002375ce53516f68500182fe8e6772c81f96029d884187e178d",
+        "role": "student"
+    },
+    "jeeva": {
+        "password": "scrypt:32768:8:1$DXglxDFifEZDkLWP$94429a99e7859dd258ac519773690a0a52830e048e86d99f540bc6112b3a26b66eb1a1f9da6a157fb381f7cee1f2d09b7f233cad3c14d16e73acfe05141d9d5b",
+        "role": "teacher"
+    },
+    "mm": {
+        "password": "scrypt:32768:8:1$whfko6e1N8oVAoWE$ccd90d83eaff231f274b35a6b1228ebdc3b1556eca2ce760d58c8c9b02e55eece8e7005e61a39c7f2633c586133ada1f5353f82cce8e0843708ad5356f093008",
+        "role": "student"
+    },
+    "smith": {
+        "password": "scrypt:32768:8:1$3GTlXZBDxOR0XVKT$16263636234f62af16709ce3fe8121cd7b8889e2bfc296c352be79ea0aaa4eb5ce2d1a8726dce6916e6f7c5d98a4c624a1fa8e1f275c476002f25b8dea34e9d9",
+        "role": "student"
+    },
+    "alagar": {
+        "password": "scrypt:32768:8:1$zQkmkMz8XrMBgzLV$65b6625eadef30a2d6b568e024eb891a5e8aa997de1d5ee38fd410c39d75dee744643cea226b99dd60e6b259f92b69a9ef4ec6a3c93baeb31bb96119161715b1",
+        "role": "student"
+    },
+    "syed": {
+        "password": "scrypt:32768:8:1$zQkmkMz8XrMBgzLV$65b6625eadef30a2d6b568e024eb891a5e8aa997de1d5ee38fd410c39d75dee744643cea226b99dd60e6b259f92b69a9ef4ec6a3c93baeb31bb96119161715b1",
+        "role": "student"
+    },
+    "siva": {
+        "password": "scrypt:32768:8:1$zQkmkMz8XrMBgzLV$65b6625eadef30a2d6b568e024eb891a5e8aa997de1d5ee38fd410c39d75dee744643cea226b99dd60e6b259f92b69a9ef4ec6a3c93baeb31bb96119161715b1",
+        "role": "student"
+    },
+    "john": {
+        "password": "scrypt:32768:8:1$DXglxDFifEZDkLWP$94429a99e7859dd258ac519773690a0a52830e048e86d99f540bc6112b3a26b66eb1a1f9da6a157fb381f7cee1f2d09b7f233cad3c14d16e73acfe05141d9d5b",
+        "role": "teacher"
+    }
+}

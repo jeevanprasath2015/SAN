@@ -1,0 +1,31 @@
+
+<style>
+  h2 { text-align: center; }
+  form { max-width: 600px; margin: auto; }
+  label { display: block; margin: 8px 0; }
+  input[type="text"], textarea { width: 100%; padding: 8px; box-sizing: border-box; }
+  button { padding: 8px 16px; background-color: #2563eb; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  button:hover { background-color: #1e40af; }
+  a { margin-left: 8px; text-decoration: none; color: #2563eb; }
+  a:hover { text-decoration: underline; }
+  .muted { color: #666; font-size: 0.9em; }
+
+</style>
+{% extends "base.html" %}
+{% block content %}
+<h2>Class Information</h2>
+<form method="post">
+  <label>Class name<br><input name="class_name" value="{{ data.class_name }}"></label><br>
+  <label>Teacher<br><input name="teacher" value="{{ data.teacher }}"></label><br>
+  <label>Representative<br><input name="representative" value="{{ data.representative }}"></label><br>
+  <label>Students (one per line)<br>
+    <textarea name="students" rows="6" style="width:100%;" {% if role != 'teacher' %}disabled{% endif %}>{{ students_text }}</textarea>
+  </label>
+  <div style="margin-top:8px;">
+    {% if role == 'teacher' %}
+      <button type="submit">Save</button>
+    {% endif %}
+    <a href="{{ url_for('dashboard') }}">Back</a>
+  </div>
+</form>
+{% endblock %}

@@ -1,0 +1,36 @@
+{
+    "2025-03-15": {
+        "alice": "present",
+        "jeeva": "present"
+    },
+    "2025-10-14": {
+        "alice": "present",
+        "jeeva": "present"
+    },
+    "2025-10-15": {
+        "alice": "present",
+        "alagar": "present",
+        "tharun": "present",
+        "syed": "present",
+        "sampath": "present"
+    },
+    "2025-10-12": {
+        "alice": "absent",
+        "alagar": "present",
+        "mm": "present",
+        "syed": "present"
+    },
+    "2025-10-10": {
+        "alice": "absent",
+        "alagar": "absent",
+        "mm": "absent",
+        "syed": "absent"
+    },
+    "2025-10-16": {
+        "alice": "present",
+        "alagar": "present",
+        "tharun": "present",
+        "syed": "present",
+        "sampath": "present"
+    }
+}

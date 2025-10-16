@@ -1,0 +1,28 @@
+[
+    {
+    "class_name": "Class 1",
+    "teacher": "jeeva",
+    "representative": "syed",
+    "students": [
+        "alice",
+        "alagar",
+        "tharun",
+        "syed",
+        "sampath",
+        "siva"
+    ]
+
+},
+{
+    "class_name": "Class 2",
+    "teacher": "john",
+    "representative": "doe",
+    "students": [
+        "bob",
+        "charlie",
+        "dave",
+        "eve",
+        "frank"
+    ]
+}
+]
